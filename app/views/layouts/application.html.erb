@@ -11,6 +11,16 @@
   </head>
 
   <body>
+    <%= render 'shared/top_header' %>
+    <%= render 'shared/header' %>
+    <%= render 'shared/breadcumb' %>
+    <%= render 'shared/breadcumb_nav' %>
+    
     <%= yield %>
+
+    <%= render 'shared/instagram_carousel' %>
+    <%= render 'shared/social' %>
+    <%= render 'shared/footer' %>
+    <%= render 'shared/scroll_up' %>
   </body>
 </html>
